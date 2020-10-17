@@ -191,14 +191,31 @@ MODAL AGREGAR PRODUCTO
                 <div class="col-xs-6">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="U. Medida Entero" required>
+                        <input type="number" class="form-control input-sm" id="nuevoUndEntero" name="nuevoUndEntero" step="any" min="0" placeholder="U. Medida Entero" required>
                     </div>
                 </div>
 
                 <div class="col-xs-6">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="U. Medida Menudo" required>
+                        <input type="number" class="form-control input-sm" id="nuevoUndMenudo" name="nuevoUndMenudo" step="any" min="0" placeholder="U. Medida Menudo" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ENTRADA PARA STOK MAXIMO MINIMO -->
+            <div class="form-group row">
+                <div class="col-xs-6">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
+                        <input type="number" class="form-control input-sm" id="nuevoStokMin" name="nuevoStokMin" step="any" min="0" placeholder="Stok minimo" required>
+                    </div>
+                </div>
+
+                <div class="col-xs-6">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
+                        <input type="number" class="form-control input-sm" id="nuevoStokmax" name="nuevoStokmax" step="any" min="0" placeholder="Stok maximo" required>
                     </div>
                 </div>
             </div>
@@ -208,17 +225,20 @@ MODAL AGREGAR PRODUCTO
                 <div class="col-xs-6">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-box"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="C. Menudeo %" required>
+                        <input type="number" class="form-control input-sm" id="nuevoPreMenudo" name="nuevoPreMenudo" step="any" min="0" placeholder="C. Menudeo %" required>
                     </div>
                 </div>
 
                 <div class="col-xs-6">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fas fa-boxes"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="C. Mayorista %" required>
+                        <input type="number" class="form-control input-sm" id="nuevoPreMayorista" name="nuevoPreMayorista" step="any" min="0" placeholder="C. Mayorista %" required>
                     </div>
                 </div>
             </div>
+
+            <fieldset>
+            <legend>Precios y costos</legend>
 
             <!-- ENTRADA PARA PRECIO COMPRA -->
             <div class="form-group row">
@@ -302,6 +322,7 @@ MODAL AGREGAR PRODUCTO
                     </div>
                 </div>
             </div>
+            </fieldset>
           </div>
         </div>
           
