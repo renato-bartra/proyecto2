@@ -1,0 +1,36 @@
+CRITICAL - 2020-10-16 11:10:15 --> Undefined variable: baseURL
+#0 /opt/lampp/htdocs/proyecto2/app/Views/inicio.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 10, Array)
+#1 /opt/lampp/htdocs/proyecto2/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/proyecto2/system/Common.php(1119): CodeIgniter\View\View->render('inicio', Array, true)
+#3 /opt/lampp/htdocs/proyecto2/app/Controllers/Home.php(7): view('inicio')
+#4 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/proyecto2/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-16 11:20:42 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/proyecto2/system/Common.php(1119): CodeIgniter\View\View->render('inicio', Array, true)
+#1 /opt/lampp/htdocs/proyecto2/app/Controllers/Home.php(7): view('inicio')
+#2 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#3 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/proyecto2/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-16 11:21:18 --> Call to undefined function baseURL()
+#0 /opt/lampp/htdocs/proyecto2/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/proyecto2/system/Common.php(1119): CodeIgniter\View\View->render('inicio', Array, true)
+#2 /opt/lampp/htdocs/proyecto2/app/Controllers/Home.php(7): view('inicio')
+#3 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/proyecto2/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-16 11:50:28 --> Invalid file: menu.php
+#0 /opt/lampp/htdocs/proyecto2/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 /opt/lampp/htdocs/proyecto2/system/Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#2 /opt/lampp/htdocs/proyecto2/app/Controllers/Home.php(8): view('menu')
+#3 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/proyecto2/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/proyecto2/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
