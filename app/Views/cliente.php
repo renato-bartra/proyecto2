@@ -3,11 +3,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Administrar Productos
+        Administrar Cliente
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
-        <li class="active">Productos</li>
+        <li class="active">Cliente</li>
       </ol>
     </section>
 
@@ -16,7 +16,7 @@
         <div class="box">
             <div class="box-header with-border">
                 <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCliente">
-                    Agregar producto
+                    Agregar Cliente
                 </button>
             </div>
 
@@ -167,184 +167,54 @@ MODAL AGREGAR PRODUCTO
               </div>
             </div>
 
-            <!-- ENTRADA PARA LA LINEA -->
+            <!-- ENTRADA PARA LA DIRECCION -->
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fas fa-hand-holding"></i></span> 
+                <input type="number" class="form-control input-sm" name="nuevaDireccion" placeholder="Ingresar Direccion" required>
+              </div>
+            </div>
+
+            <!-- ENTRADA PARA EL DEPARTAMENTO -->
             <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fas fa-tags"></i></span> 
-                    <select class="form-control input-sm" id="nuevaLinea" name="nuevaLinea" required>
-                    <option value="">Selecionar Linea</option>
-                    
-    
+                    <select class="form-control input-sm" id="nuevoDepartamento" name="nuevoDepartamento" required>
+                    <option value="">Selecionar DEPARTAMENTO</option>
+                
                     </select>
                 </div>
             </div>
 
-            <!-- ENTRADA PARA LA MARCA -->
+            <!-- ENTRADA PARA LA PROVINCIA -->
             <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fas fa-tags"></i></span> 
-                    <select class="form-control input-sm" id="nuevaMarca" name="nuevaMarca" required>
-                    <option value="">Selecionar Marca</option>
-                    
-    
+                    <select class="form-control input-sm" id="nuevoProvincia" name="nuevoProvincia" required>
+                    <option value="">Selecionar PROVINCIA</option>
+                
                     </select>
                 </div>
             </div>
 
-            <!-- ENTRADA PARA PESO UNITARIO -->
-            <div class="form-group row">
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-arrow-up"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecVentUnd" name="nuevoPrecVentUnd" step="any" min="0" placeholder="Peso Unitario" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-sort-amount-down"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoFactor" name="nuevoFactor" step="any" min="0" placeholder="Factor" required>
-                    </div>
+            <!-- ENTRADA PARA EL DISTRITO -->
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fas fa-tags"></i></span> 
+                    <select class="form-control input-sm" id="nuevoDistrito" name="nuevoDistrito" required>
+                    <option value="">Selecionar DISTRITO</option>
+                
+                    </select>
                 </div>
             </div>
 
-            <!-- ENTRADA PARA UNIDAD DE MEDIDA -->
-            <div class="form-group row">
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoUndEntero" name="nuevoUndEntero" step="any" min="0" placeholder="U. Medida Entero" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoUndMenudo" name="nuevoUndMenudo" step="any" min="0" placeholder="U. Medida Menudo" required>
-                    </div>
-                </div>
+           <!-- ENTRADA PARA LA UBICACION GEOGRAFICA -->
+           <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fas fa-hand-holding"></i></span> 
+                <input type="number" class="form-control input-sm" name="nuevaUbicacionG" placeholder="gps" required readonly>
+              </div>
             </div>
-
-            <!-- ENTRADA PARA STOK MAXIMO MINIMO -->
-            <div class="form-group row">
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoStokMin" name="nuevoStokMin" step="any" min="0" placeholder="Stok minimo" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-ruler"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoStokmax" name="nuevoStokmax" step="any" min="0" placeholder="Stok maximo" required>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ENTRADA PARA C Menudeo C MAYORISTA -->
-            <div class="form-group row">
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-box"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPreMenudo" name="nuevoPreMenudo" step="any" min="0" placeholder="C. Menudeo %" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fas fa-boxes"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPreMayorista" name="nuevoPreMayorista" step="any" min="0" placeholder="C. Mayorista %" required>
-                    </div>
-                </div>
-            </div>
-
-            <fieldset>
-            <legend>Precios y costos</legend>
-
-            <!-- ENTRADA PARA PRECIO COMPRA -->
-            <div class="form-group row">
-                <div class="col-xs-5 col-sm-5">
-                    <div class="input-group" style="margin-bottom:15px">
-                        <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="Precio de compra" required>
-                    </div>
-
-                    <div class="input-group" style="margin-bottom:15px">
-                        <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoPrecioFlete" name="nuevoPrecioFlete" step="any" min="0" placeholder="Flete" required>
-                    </div>
-
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                        <input type="number" class="form-control input-sm" id="nuevoImpuesto" name="nuevoIMpuesto" step="any" min="0" placeholder="Impuesto" value="18.00" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-7 col-sm-7">
-                    <small>Porcentaje por cliente</small>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6">
-                            <small>Bodega(Precio 1)</small>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP1" name="nuevoPorcP1" step="any" min="0" value="40" required>
-                            </div>
- 
-                            <small>Distribuidora(Precio 2)</small>                           
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP2" name="nuevoPorcP2" step="any" min="0" value="30" required>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-6">
-                            <small>Super Mercado(Precio 3)</small>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP3" name="nuevoPorcP3" step="any" min="0" value="20" required>
-                            </div>
- 
-                            <small>Mayorista(Precio 4)</small>                           
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP4" name="nuevoPorcP4" step="any" min="0" value="10" required>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ENTRADA PARA PRECIO POR CLIENTE-->
-            <div class="form-group row">
-                <div class="col-xs-3">
-                <small>Precio 1</small>
-                    <div class="input-group">
-                        <input type="number" class="form-control input-sm" id="nuevoPrecio1" name="nuevoPrecio1" step="any" min="0" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-3">
-                <small>Precio 2</small>
-                    <div class="input-group">
-                        <input type="number" class="form-control input-sm" id="nuevoPrecio2" name="nuevoPrecio2" step="any" min="0" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-3">
-                <small>Precio 3</small>
-                    <div class="input-group">
-                        <input type="number" class="form-control input-sm" id="nuevoPrecio3" name="nuevoPrecio3" step="any" min="0" required>
-                    </div>
-                </div>
-
-                <div class="col-xs-3">
-                <small>Precio 4</small>
-                    <div class="input-group">
-                        <input type="number" class="form-control input-sm" id="nuevoPrecio4" name="nuevoPrecio4" step="any" min="0" required>
-                    </div>
-                </div>
-            </div>
-            </fieldset>
           </div>
         </div>
           

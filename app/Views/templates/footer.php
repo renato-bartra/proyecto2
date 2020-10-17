@@ -21,8 +21,13 @@
 <!-- Bootstrap 3.3.7 -->
 <script src="<?= base_url() ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
+<<<<<<< HEAD
 <script src="<?= base_url() ?>/bower_components/raphael/raphael.min.js"></script>
 <script src="bower_components/morris.js/morris.min.js"></script>
+=======
+<script src="<?= base_url()?>/bower_components/raphael/raphael.min.js"></script>
+<script src="<?= base_url()?>bower_components/morris.js/morris.min.js"></script>
+>>>>>>> f5ce9b6706a76aab3f0c6f3ced4971e925b4782c
 <!-- Sparkline -->
 <script src="<?= base_url() ?>/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
@@ -31,8 +36,13 @@
 <!-- jQuery Knob Chart -->
 <script src="<?= base_url() ?>/bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
+<<<<<<< HEAD
 <script src="<?= base_url() ?>/bower_components/moment/min/moment.min.js"></script>
 <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+=======
+<script src="<?= base_url()?>/bower_components/moment/min/moment.min.js"></script>
+<script src="<?= base_url()?>bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+>>>>>>> f5ce9b6706a76aab3f0c6f3ced4971e925b4782c
 <!-- datepicker -->
 <script src="<?= base_url() ?>/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <!-- DataTables -->
@@ -51,6 +61,12 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?= base_url() ?>/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
+<<<<<<< HEAD
 <script src="<?= base_url() ?>/dist/js/demo.js"></script>
+=======
+<script src="<?= base_url()?>/dist/js/demo.js"></script>
+<!-- JS PROPIOS -->
+<script src="<?= base_url()?>/js/main.js"></script>
+>>>>>>> f5ce9b6706a76aab3f0c6f3ced4971e925b4782c
 </body>
 </html>

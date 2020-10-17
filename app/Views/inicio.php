@@ -266,26 +266,26 @@ MODAL AGREGAR PRODUCTO
                             <small>Bodega(Precio 1)</small>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP1" name="nuevoPorcP1" step="any" min="0" value="40" required>
+                                <input type="number" class="form-control input-sm" id="nuevoPorcP1" name="nuevoPorcP1" step="any" min="0" value="50" required>
                             </div>
  
                             <small>Distribuidora(Precio 2)</small>                           
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP2" name="nuevoPorcP2" step="any" min="0" value="30" required>
+                                <input type="number" class="form-control input-sm" id="nuevoPorcP2" name="nuevoPorcP2" step="any" min="0" value="40" required>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-6">
                             <small>Super Mercado(Precio 3)</small>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP3" name="nuevoPorcP3" step="any" min="0" value="20" required>
+                                <input type="number" class="form-control input-sm" id="nuevoPorcP3" name="nuevoPorcP3" step="any" min="0" value="30" required>
                             </div>
  
                             <small>Mayorista(Precio 4)</small>                           
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-percent"></i></span> 
-                                <input type="number" class="form-control input-sm" id="nuevoPorcP4" name="nuevoPorcP4" step="any" min="0" value="10" required>
+                                <input type="number" class="form-control input-sm" id="nuevoPorcP4" name="nuevoPorcP4" step="any" min="0" value="20" required>
                             </div>
                         </div>
                     </div>
