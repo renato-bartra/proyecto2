@@ -22,7 +22,7 @@
 <script src="<?= base_url()?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
 <script src="<?= base_url()?>/bower_components/raphael/raphael.min.js"></script>
-<script src="bower_components/morris.js/morris.min.js"></script>
+<script src="<?= base_url()?>bower_components/morris.js/morris.min.js"></script>
 <!-- Sparkline -->
 <script src="<?= base_url()?>/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
@@ -32,7 +32,7 @@
 <script src="<?= base_url()?>/bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
 <script src="<?= base_url()?>/bower_components/moment/min/moment.min.js"></script>
-<script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="<?= base_url()?>bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- datepicker -->
 <script src="<?= base_url()?>/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <!-- DataTables -->
@@ -52,5 +52,7 @@
 <script src="<?= base_url()?>/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= base_url()?>/dist/js/demo.js"></script>
+<!-- JS PROPIOS -->
+<script src="<?= base_url()?>/js/main.js"></script>
 </body>
 </html>

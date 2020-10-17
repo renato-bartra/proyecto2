@@ -26,6 +26,8 @@
           <ul class="treeview-menu">
             <li><a href="#"><i class="fas fa-list-ol"></i> Unidades</a></li>
             <li><a href="#"><i class="fa fa-tag"></i> Lineas</a></li>
+            <li><a href="#"><i class="fa fa-tag"></i> Familia</a></li>
+            <li><a href="#"><i class="fa fa-tag"></i> Marca</a></li>
           </ul>
         </li>
 

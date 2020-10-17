@@ -11,30 +11,30 @@
 ._*
 
 # Windows image file caches
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Thumbs.db
+# ehthumbs.db
+# Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
 # Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# *.cab
+# *.msi
+# *.msm
+# *.msp
 
 # Windows shortcuts
-*.lnk
+# *.lnk
 
 # Linux
-*~
+# *~
 
 # KDE directory preferences
-.directory
+# .directory
 
 # Linux trash folder which might appear on any partition or disk
-.Trash-*
+# .Trash-*
 
 #-------------------------
 # Environment Files
@@ -42,8 +42,8 @@ $RECYCLE.BIN/
 # These should never be under version control,
 # as it poses a security risk.
 #.env
-.vagrant
-Vagrantfile
+# .vagrant
+# Vagrantfile
 
 #-------------------------
 # Temporary Files
@@ -62,23 +62,23 @@ Vagrantfile
 
 # writable/debugbar/*
 
-php_errors.log
+# php_errors.log
 
 #-------------------------
 # User Guide Temp Files
 #-------------------------
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-# user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# user_guide_src/build/*
+# user_guide_src/cilexer/build/*
+# # user_guide_src/cilexer/dist/*
+# user_guide_src/cilexer/pycilexer.egg-info/*
 
 #-------------------------
 # Test Files
 #-------------------------
-tests/coverage*
+# tests/coverage*
 
 # Don't save phpunit under version control.
-phpunit
+# phpunit
 
 #-------------------------
 # Composer
@@ -93,11 +93,11 @@ phpunit
 # _modules/*
 
 # phpenv local config
-.php-version
+# .php-version
 
 # Jetbrains editors (PHPStorm, etc)
-.idea/
-*.iml
+# .idea/
+# *.iml
 
 # Netbeans
 # nbproject/
@@ -105,9 +105,9 @@ phpunit
 # nbbuild/
 # dist/
 # nbdist/
-nbactions.xml
-nb-configuration.xml
-.nb-gradle/
+# nbactions.xml
+# nb-configuration.xml
+# .nb-gradle/
 
 # Sublime Text
 *.tmlanguage.cache
@@ -115,8 +115,8 @@ nb-configuration.xml
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
-.phpintel
-/api/
+# .phpintel
+# /api/
 
 # Visual Studio Code
 .vscode/
