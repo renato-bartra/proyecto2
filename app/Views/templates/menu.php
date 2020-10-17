@@ -9,7 +9,7 @@
 
         <!-- Menu CLientes -->
         <li>
-          <a href="#">
+          <a href="<?= base_url ('Cliente')?>">
             <i class="fas fa-user"></i> <span>Clientes</span>
           </a>
         </li>
@@ -24,7 +24,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fas fa-list-ol"></i> Unidades</a></li>
+            <li><a href="<?= base_url ('Home')?>"><i class="fas fa-list-ol"></i> Unidades</a></li>
             <li><a href="#"><i class="fa fa-tag"></i> Lineas</a></li>
           </ul>
         </li>
